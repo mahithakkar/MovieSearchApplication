@@ -4,7 +4,8 @@ Welcome to the Hack4Impact Fall 2025 application assessment! This project is a s
 
 ## Your Task
 
-Your goal is to complete the functionality of this application. You have been provided with a partially completed codebase. Please refer to the "About" page of the running application for detailed instructions on the features you need to implement.
+Your goal is to complete the functionality of this application. You have been provided with a set up codebase.
+Follow the instructions below to get started on the assessment.
 
 ## Getting Started
 
