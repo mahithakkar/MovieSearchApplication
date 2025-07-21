@@ -1,6 +1,6 @@
 # Hack4Impact Fall 2025 Application Assessment
 
-Welcome to the Hack4Impact Fall 2025 application assessment! This project is a simple movie search application built with React, TypeScript, and Vite.
+Welcome to the Hack4Impact Fall 2025 application assessment! This project is a movie search application built with React, TypeScript, and Vite.
 
 ## Your Task
 
