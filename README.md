@@ -26,14 +26,4 @@ Follow the instructions below to get started on the assessment.
     ```
     The application will be available at `http://localhost:5173`.
 
-## Evaluation Criteria
-
-Your submission will be evaluated on the following criteria:
-
-*   **Correctness and functionality:** Does the application do what it's supposed to do?
-*   **Code quality:** Is the code clean, readable, and well-organized?
-*   **React best practices:** Are you using React features and patterns effectively?
-*   **Handling of states:** How well does the application handle loading, error, and empty states?
-*   **User experience:** Is the application easy and pleasant to use?
-
 Good luck! We look forward to seeing your work.
