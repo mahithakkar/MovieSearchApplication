@@ -6,12 +6,14 @@ import App from './App.tsx';
 import './index.css';
 
 
+import HomePage from "./HomePage"
+
 const router = createBrowserRouter
 (
   [
     {
       path: "/",  // url path
-      element: <h1>Home Page</h1>, // when url is / it shows home
+      element: <HomePage />, // when url is / it shows home
     },
     {
       path: "/search", //when url is search 
