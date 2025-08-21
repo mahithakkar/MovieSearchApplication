@@ -28,10 +28,14 @@ export default function HomePage()
     return (
         //tagging the style element so later we can write css
         <div className="homepage">
-        <h1 className="title">Movie Search</h1>
+      <h1 className="title">Movie Search</h1>
 
-        <form className="search-form" onSubmit={handleSubmit}>
-        <input name="q" placeholder="Search for a movie..." className="search-input" />
+      <form className="search-form" onSubmit={handleSubmit}>
+        <input
+          name="q"
+          placeholder="Search for a movie..."
+          className="search-input"
+        />
         <button type="submit" className="search-button">
           Search
         </button>

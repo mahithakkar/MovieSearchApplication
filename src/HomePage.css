@@ -1,0 +1,36 @@
+/* put the image path RELATIVE to this file (HomePage.css is in src/) */
+.homepage {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;                   /* top, not middle */
+    align-items: center;
+    padding-top: 100px;                            /* breathing room from very top */
+  
+    /* background from assignment */
+    background: url("./background.jpeg") center/cover no-repeat;
+    background-blend-mode: multiply;
+  
+    color: #f0b34b;
+    text-align: center;
+  }
+  
+  .search-form { display: flex; margin-top: 16px; }
+  
+  .search-input {
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    width: 300px;
+    outline: none;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    border-radius: 0 20px 20px 0;
+    border: none;
+    background: #f0b34b;
+    color: black;
+    cursor: pointer;
+  }
+  

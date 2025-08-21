@@ -1,14 +1,12 @@
-const App = () => {
-  // Replace this with your code. Good luck!
-  return (
-    <div>
-      <h1>Fall 2025 Hack4Impact-UMD Technical Application Assessment</h1>
-    </div>
-  );
-};
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import HomePage from "./HomePage";
+import DisplayPage from "./DisplayPage";
 
-export default App;
+const router = createBrowserRouter([
+  { path: "/", element: <HomePage /> },
+  { path: "/search", element: <DisplayPage /> },
+]);
 
-
-
-
+export default function App() {
+  return <RouterProvider router={router} />;
+}

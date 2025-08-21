@@ -1,0 +1,48 @@
+.displaypage {
+    min-height: 100vh;
+    padding: 24px;
+    color: #eaeaea;
+  
+    /* same image, same relative path logic */
+    background: url("./background.jpeg") center/cover no-repeat fixed;
+    background-blend-mode: multiply;
+  }
+  
+  
+  .back-btn {
+    background: #f0b34b;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 16px;
+  }
+  
+  .results-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #f0b34b;
+  }
+  
+  .movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 16px;
+  }
+  
+  .movie-card {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .error-text {
+    color: tomato;
+  }
+  
