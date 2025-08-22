@@ -25,6 +25,7 @@
   margin: 16px 0 8px;
   font-size: 28px;
   font-weight: 700;
+  text-align: center; 
 }
 .error-text { margin-top: 12px; color: var(--error); font-weight: 500; }
 

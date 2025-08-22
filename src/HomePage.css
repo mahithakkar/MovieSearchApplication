@@ -17,30 +17,34 @@
 .search-form {
   display: flex;
   align-items: center;
+  justify-content: center;   
+  gap: 12px;                 /* <-- fixes the “smushed” look */
+  width: 100%;
+  padding: 0 24px;
 }
 
 .search-input {
-  width: min(640px, 80vw);
-  padding: 12px 16px;
-  border-radius: 24px 0 0 24px;
+  width: clamp(600px, 60vw, 1000px);  
+  padding: 14px 18px;
+  border-radius: 28px;              
   border: 1px solid var(--border);
   background: var(--card-bg);
   color: var(--text);
   outline: none;
 }
-
 .search-input::placeholder { color: #bdbdbd; }
 
+
 .search-button {
-  padding: 12px 20px;
-  border-radius: 0 24px 24px 0;
+  padding: 14px 24px;
+  border-radius: 28px;              
   border: 1px solid var(--border);
-  border-left: none;
   background: var(--primary);
   color: #000;
   font-weight: 600;
   cursor: pointer;
 }
+
 
 .search-button:disabled { opacity: 0.75; cursor: default; }
 
