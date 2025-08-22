@@ -14,3 +14,4 @@ const router = createBrowserRouter([
 export default function App() {
   return <RouterProvider router={router} />;
 }
+
