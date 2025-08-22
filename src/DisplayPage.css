@@ -34,3 +34,23 @@
   gap: 20px;
   margin-top: 18px;
 }
+
+.poster-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+  overflow: hidden;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+ }
+ .poster-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.45);
+ }
+ .poster-card img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+ }
+ 
